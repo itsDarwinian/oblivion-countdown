@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>C KAN KON JOU</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p id="demo"></p>
+  <div class="wraper"><div class="separator"></div><div class="main">
+    <p>Si vous voulez vraiment</p><p> mais alors VRAIMENT savoir</p>
+    <p id="demo"></p>
+    <img src="random-logo.png" id="logo-separator">
+  </div></div>
+<img src="unknown.png" class="cursed"/>
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+var countDownDate = new Date("Apr 30, 2021 21:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -25,13 +33,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML ="On joue dans <span class='nb'>" + days + "</span> jours</p><p id='demo2'><span class='nb'>" + hours + "</span> heures <span class='nb'>"
+  + minutes + "</span> minutes et <span class='nb'>" + seconds + "</span> secondes.";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "<span id='rdy'>MAINTENANT</span>";
   }
 }, 1000);
 </script>

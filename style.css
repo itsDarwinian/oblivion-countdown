@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "DragonFire";
+  src: url(DragonFire.ttf) format("truetype");
+}
+
+html {
+  padding : none;
+  margin : none;
+}
+
+body {
+  background-color : #434380;
+  color : #DDD;
+  font-family : "DragonFire", helvetica;
+  font-size: 17pt;
+}
+
+p {
+  margin: 0;
+}
+
+.wraper {
+  height: 100%;
+  width: 100%;
+  top : 0;
+  left : 0;
+  position: fixed;
+  background-image: url(2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.main {
+  position : fixed;
+  left : 50%;
+  top : 45%;
+  height : 240px;
+  width : 660px;
+  margin-top : -120px;
+  margin-left : -330px;
+  background-image: url(tooltipbg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.main p:first-child {
+  margin-top : 30px;
+  margin-bottom : -7px;
+}
+
+.main p:nth-child(2) {
+  margin-bottom : -7px;
+}
+
+.separator {
+  position : fixed;
+  left : 50%;
+  top : 45%;
+  height : 240px;
+  margin-left : -191px;
+  margin-top: -128px;
+  background-color: #FFFFFF;
+  height : 2px;
+  width : 382px;
+}
+
+#logo-separator {
+  margin-top : 17px;
+}
+
+#demo {
+  font-size: 40pt;
+}
+
+#demo2 {
+  margin-top: -15px;
+  font-size: 22pt;
+}
+
+.nb {
+  color : #ffc000;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color : white;
+}
+
+.cursed {
+  position: fixed;
+  height: 50px;
+  right : 0;
+  bottom : 0;
+}
